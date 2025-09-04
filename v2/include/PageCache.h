@@ -3,7 +3,7 @@
 #include <map>
 #include <mutex>
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 class PageCache
@@ -43,4 +43,4 @@ private:
     std::mutex mutex_;
 };
 
-} // namespace memoryPool
+} 

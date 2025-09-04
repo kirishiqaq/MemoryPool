@@ -3,7 +3,7 @@
 #include <cassert>
 #include <thread>
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 // 每次从PageCache获取span大小（以页为单位）
@@ -159,4 +159,4 @@ void* CentralCache::fetchFromPageCache(size_t size)
     }
 }
 
-} // namespace memoryPool
+} 

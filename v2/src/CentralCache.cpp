@@ -4,7 +4,7 @@
 #include <thread>
 #include <chrono>
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 const std::chrono::milliseconds CentralCache::DELAY_INTERVAL{1000};
@@ -305,4 +305,4 @@ SpanTracker* CentralCache::getSpanTracker(void* blockAddr)
     return nullptr;
 }
 
-} // namespace memoryPool
+} 

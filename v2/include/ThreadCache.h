@@ -1,7 +1,7 @@
 #pragma once
 #include "Common.h"
 
-namespace Kama_memoryPool 
+namespace KirishimemoryPool
 {
 
 // 线程本地缓存
@@ -36,4 +36,4 @@ private:
     std::array<size_t, FREE_LIST_SIZE> freeListSize_; // 自由链表大小统计   
 };
 
-} // namespace memoryPool
+} 

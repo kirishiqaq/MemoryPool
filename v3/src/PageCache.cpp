@@ -2,7 +2,7 @@
 #include <sys/mman.h>
 #include <cstring>
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 void* PageCache::allocateSpan(size_t numPages)
@@ -137,4 +137,4 @@ void* PageCache::systemAlloc(size_t numPages)
     return ptr;
 }
 
-} // namespace memoryPool
+} 

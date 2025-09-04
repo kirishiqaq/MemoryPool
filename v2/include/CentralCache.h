@@ -6,7 +6,7 @@
 #include <atomic>
 #include <chrono>
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 // 使用无锁的span信息存储
@@ -62,4 +62,4 @@ private:
     void performDelayedReturn(size_t index);
 };
 
-} // namespace memoryPool
+} 

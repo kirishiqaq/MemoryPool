@@ -1,7 +1,7 @@
 #include "../include/ThreadCache.h"
 #include "../include/CentralCache.h"
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 void* ThreadCache::allocate(size_t size)
@@ -145,4 +145,4 @@ void ThreadCache::returnToCentralCache(void* start, size_t size)
     }
 }
 
-} // namespace memoryPool
+} 

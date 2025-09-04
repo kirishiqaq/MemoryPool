@@ -3,7 +3,7 @@
 #include <atomic>
 #include <array>
 
-namespace Kama_memoryPool 
+namespace KirishimemoryPool
 {
 // 对齐数和大小定义
 constexpr size_t ALIGNMENT = 8;
@@ -36,4 +36,4 @@ public:
     }
 };
 
-} // namespace memoryPool
+} 

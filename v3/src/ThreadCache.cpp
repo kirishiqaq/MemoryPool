@@ -1,7 +1,7 @@
 #include "../include/ThreadCache.h"
 #include "../include/CentralCache.h"
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 void* ThreadCache::allocate(size_t size)
@@ -163,4 +163,4 @@ size_t ThreadCache::getBatchNum(size_t size)
     return std::max(sizeof(1), std::min(maxNum, baseNum));
 }
 
-} // namespace memoryPool
+} 

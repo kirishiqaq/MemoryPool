@@ -2,7 +2,7 @@
 #include "Common.h"
 #include <mutex>
 
-namespace Kama_memoryPool
+namespace KirishimemoryPool
 {
 
 class CentralCache
@@ -42,4 +42,4 @@ private:
     std::array<std::atomic_flag, FREE_LIST_SIZE> locks_;
 };
 
-} // namespace memoryPool
+} 
