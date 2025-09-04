@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Program Files/MySQL/MySQL Server 8.0/include",
+        "D:/MINGW/mingw64/include"
+      ],
+      "compilerPath": "D:/MINGW/mingw64/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${c++11}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}
